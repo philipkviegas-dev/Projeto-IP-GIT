@@ -86,12 +86,13 @@ body {
     color: #FFFFFF;
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin-left: 0%;
-    margin-right: 1%;
-    margin-bottom: 5%;
+    margin-right: 0%;
+    margin-bottom: 0%;
     gap: 1rem;
     border-radius: 16px;
+    align-items: center;
+    padding: 1rem;
 }
 
 .menu_nome {
@@ -146,7 +147,7 @@ body {
     width: 150px;
     text-align: center;
     color: #FFFFFF;
-    font-size: 100%;
+    font-size: 20px;
     text-decoration: none;
     border-radius: 20px;
     font-weight: 600;
@@ -217,7 +218,7 @@ body {
     background-color: #ffffff;
     color: #112D4E;
     font-size: 20px;
-    text-align: justify;
+    text-align: center;
     padding: 1rem;
 }
 
@@ -249,11 +250,12 @@ body {
     text-align: justify;
     }
     .logo {
-    width: 40%;
+    width: 94px;
     padding: 1%;    
     }
     .destaquepagina {
         font-size: 30px;
+        padding: 3% 0% 0% 0%;
     }
     .destaquetexto {
         font-size: 20px;
@@ -273,26 +275,20 @@ body {
         display: flex;
         flex-direction: row;
         border-radius: 15px;
-        margin: 0px 100px 10px 100px;
-    }
-    .menu_nome {
-        width: 25%;
-        height: 100%;
-        font-size: 80%;
-        border-radius: 10px 0px 0px 10px;
+        margin: 5px 100px 5px 100px;
+        padding: 0%;
     }
     .botao_menu {
-        width: 105px;
-        font-size: 100%;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
+        width: 100px;
+        font-size: 15px;
         border-radius: 10px;
         font-weight: 400;
-        justify-content: space-between;
+        padding: 0%;
+        text-align: center;
+        align-self: center;
     }
     .botao_home {
-        margin: 0% 0% 0% 23%;
+        margin: 3% 0% 0% 23%;
         width: 50%;
         font-size: 25px;
     }
@@ -301,6 +297,6 @@ body {
     }
     .tabela_linha {
         font-size: 14px;
-        text-align: center;
+        text-align: justify;
     }
 }
