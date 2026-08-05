@@ -12,6 +12,7 @@ body {
     flex-direction: column;
     box-sizing: border-box;
     width: 100%;
+    align-items: center;
 }
 
 .titulo {
@@ -40,6 +41,7 @@ body {
     align-items: center;
     gap: 1rem;
     padding: 1rem;
+    width: 100%;
 }
 
 .cabecalho_section {
@@ -266,7 +268,7 @@ body {
     }
     .texto {
         font-size: 13px;
-        text-align: justify;
+        text-align: center;
     }
     .menu {
         width: 62%;
