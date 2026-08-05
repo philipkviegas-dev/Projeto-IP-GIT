@@ -15,6 +15,19 @@ body {
     align-items: center;
 }
 
+.principal {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    /* margin-right: 10%;
+    margin-left: 1%;
+    margin-top: 2%;*/
+    margin-bottom: 10%;
+    justify-content: center;
+    align-items: start;
+    text-align: justify;
+}
+
 .titulo {
     font-family: "Literata", sans-serif;
     font-size: 250%;
@@ -39,8 +52,6 @@ body {
     color: #FFFFFF;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
-    padding: 1rem;
     width: 100%;
 }
 
@@ -56,18 +67,6 @@ body {
     margin-top: 1%;
     margin-left: 1%;
     margin-bottom: 1%;    
-}
-
-.principal {
-    display: flex;
-    flex-direction: row-reverse;
-    /* margin-right: 10%;
-    margin-left: 1%;
-    margin-top: 2%;*/
-    margin-bottom: 10%;
-    justify-content: center;
-    align-items: start;
-    text-align: justify;
 }
 
 .principal_section {
