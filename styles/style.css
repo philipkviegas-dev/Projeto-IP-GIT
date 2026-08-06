@@ -271,6 +271,7 @@ body {
     .texto {
         font-size: 13px;
         text-align: justify;
+        padding: 2%;
     }
     .menu {
         width: 100%;
