@@ -25,25 +25,39 @@
             O negócio nasce como consultoria bootstrapped. Serviços manuais e semiautomatizados geram receita desde o início; os processos mais recorrentes são documentados e automatizados; a tecnologia própria evolui somente após a comprovação da demanda.</p>
         </section>
         <nav class="home">
-            <a class="botao_home" href="./index.html">Início</a>
-        <div class="menu">
+            <a class="botao_home" href="./index.html">
+                <img class="ihome" src="/imagens/home.png">
+            </a>
+        <i id="hMenu" class="icone_home" onclick="clickMenu()">
+            <img class="menuHIcone" src="imagens/hamburger.png">
+        </i>
+        <div id="idmenu" class="menu">
             <a class="botao_menu" href="./publicoalvo.html">Público-Alvo</a>
             <a class="botao_menu" href="./serviços.html">Serviços</a>
             <a class="botao_menu" href="./niveisprodutos.html">Produtos</a>
         </div>
         </nav>
     </main>
-    <footer>
+    <footer class="pe-principal">
+        <h3 class="pe-titulo"> Acesse nossas redes:</h3>
         <div class="redes_sociais">
-                <h3> Acesse nossas redes:</h3>
-                <a class="botao" href="">Instagran
+                <a class="botao" href="./redes.html">
                     <img src="/imagens/instagram.png" alt="Logo do Instagram" class="logo_rede">
                 </a>
-                <a class="botao" href="">WhatsApp
+                <a class="botao" href="./redes.html">
                     <img src="/imagens/whatsapp.png" alt="Logo do WhatsApp" class="logo_rede">
                 </a>
                 </div>
         <p class="pe">&copy; 2026 Inteligência Política. Todos os direitos reservados.</p>
     </footer>
+    <script>
+        function clickMenu() {
+            if (idmenu.style.display == 'flex') {
+                idmenu.style.display = 'none'
+            } else {
+                idmenu.style.display = 'flex'
+            }
+        }
+    </script>
 </body>
 </html>
