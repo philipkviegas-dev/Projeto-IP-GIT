@@ -280,21 +280,22 @@ body {
         flex-direction: row;
         border-radius: 15px;
         margin: 0px 0% 0px 0%;
-        padding: 0%;
+        padding: 3%;
     }
     .botao_menu {
         width: 85%;
         font-size: 15px;
         border-radius: 10px;
         font-weight: 400;
-        padding: 0%;
         text-align: center;
         align-self: center;
     }
     .botao_home {
         margin: 3% 0% 0% 0%;
-        width: 50%;
-        font-size: 25px;
+        width: 45%;
+        font-size: 15px;
+        height: 25%;
+        align-items: center;
     }
     .tabela_cabecalho {
         font-size: 20px;
