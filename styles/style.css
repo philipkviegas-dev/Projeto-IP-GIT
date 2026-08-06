@@ -275,15 +275,17 @@ body {
     .destaquetexto {
         font-size: 20px;
         text-align: justify;
+        padding: 0% 2% 0% 2%;
     }
     .destaquetexto_menor {
         font-size: 15px;
         text-align: justify;
+        padding: 0% 2% 0% 2%;
     }
     .texto {
         font-size: 13px;
         text-align: justify;
-        padding: 2%;
+        padding: 0% 2% 0% 2%;
     }
     .menu {
         width: 100%;
