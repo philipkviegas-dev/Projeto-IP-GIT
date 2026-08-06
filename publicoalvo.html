@@ -22,8 +22,13 @@
             <!-- <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/6uTWcVpNL20?si=Ez5JfaixBB6S69fX&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
         </section>
         <nav class="home">
-            <a class="botao_home" href="./index.html">Início</a>
-        <div class="menu">
+            <a class="botao_home" href="./index.html">
+                <img class="ihome" src="/imagens/home.png">
+            </a>
+        <i id="hMenu" class="icone_home" onclick="clickMenu()">
+            <img class="menuHIcone" src="imagens/hamburger.png">
+        </i>
+        <div id="idmenu" class="menu">
             <a class="botao_menu" href="./publicoalvo.html">Público-Alvo</a>
             <a class="botao_menu" href="./serviços.html">Serviços</a>
             <a class="botao_menu" href="./niveisprodutos.html">Produtos</a>
@@ -42,5 +47,14 @@
                 </div>
         <p class="pe">&copy; 2026 Inteligência Política. Todos os direitos reservados.</p>
     </footer>
+    <script>
+    function clickMenu() {
+        if (idmenu.style.display == 'flex') {
+            idmenu.style.display = 'none'
+        } else {
+            idmenu.style.display = 'flex'
+        }
+    }
+    </script>
 </body>
 </html>

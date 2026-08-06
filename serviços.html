@@ -61,8 +61,13 @@
             <p class="texto">Análise histórica do mandato, base política, territórios, entregas, percepção e lacunas, respeitando a separação entre recursos públicos e atividade político-eleitoral.</p>
         </section>
         <nav class="home">
-            <a class="botao_home" href="./index.html">Início</a>
-        <div class="menu">
+            <a class="botao_home" href="./index.html">
+                <img class="ihome" src="/imagens/home.png">
+            </a>
+        <i id="hMenu" class="icone_home" onclick="clickMenu()">
+            <img class="menuHIcone" src="imagens/hamburger.png">
+        </i>
+        <div id="idmenu" class="menu">
             <a class="botao_menu" href="./publicoalvo.html">Público-Alvo</a>
             <a class="botao_menu" href="./serviços.html">Serviços</a>
             <a class="botao_menu" href="./niveisprodutos.html">Produtos</a>
@@ -81,5 +86,14 @@
                 </div>
         <p class="pe">&copy; 2026 Inteligência Política. Todos os direitos reservados.</p>
     </footer>
+    <script>
+        function clickMenu() {
+            if (idmenu.style.display == 'flex') {
+                idmenu.style.display = 'none'
+            } else {
+                idmenu.style.display = 'flex'
+            }
+        }
+    </script>
 </body>
 </html>
